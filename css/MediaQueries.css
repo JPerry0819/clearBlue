@@ -1,0 +1,79 @@
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 1500px)
+  {
+
+    /* Start SideNave and Links MQ */
+
+    .sidenav{
+      display: flex;
+    }
+
+    #links{
+      display: flex;
+    }
+
+    #jumbo{
+      display: flex;
+      height: 10rem;
+    }
+    #logo{
+      height: 11vh;
+    width: 50vh;
+    display: flex;
+    margin-top: -41%;
+    }
+    #logoNomove{
+   display: none;
+    }
+    .titleLetter{
+      font-size:11vh;
+      display: flex;
+      margin-top: -9%;
+      
+    }
+    .titleLetter1{
+      font-size:11vh;
+      display: flex;
+      margin-top: -9%;
+    }
+    #pageTitle{
+      font-size: 8vh;
+      display: flex;
+      left: 30%;
+    }
+    #chart{
+      display: flex;
+      width: 50rem;
+      margin-left: -40%;
+    }
+#textbox1{
+ 
+  margin-top: -35%;
+  margin-left: 15%;
+  font-size: 2vh;
+  text-align: justify;
+  word-wrap: break-word;
+}
+#color{
+  display: flex;
+  margin-top: 80%;
+  margin-left: -1%;
+}
+#footer{
+  display: flex;
+  margin-top: 10%;
+  margin-left: -1%;
+}
+#footerFont{
+  padding: 1%;
+  font-size: 20px;
+
+}
+
+
+
+
+
+
+  }

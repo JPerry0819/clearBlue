@@ -1,0 +1,54 @@
+{
+    "meta": "Annual metric tons of mismanaged plastic waste in global waters",
+    "date": "2010",
+    "data":[
+        {
+        "country": "China",
+        "weight": "8.8m"
+    },
+    {
+        "country": "Indonesia",
+        "weight": "3.2m"
+    },
+    {
+        "country": "Phillipines",
+        "weight": "1.9m"
+    },
+    {
+        "country": "Vietnam",
+        "weight": "1.8m"
+    },
+    {
+        "country": "Sri Lanka",
+        "weight": "1.6m"
+    },
+    {
+        "country": "Egypt",
+        "weight": "1.0m"
+    },
+    {
+        "country": "Thailand",
+        "weight": "1.0m"
+    },
+    {
+        "country": "Malaysia",
+        "weight": "0.9m"
+    },
+    {
+        "country": "Nigeria",
+        "weight": "0.9m"
+    },
+    {
+        "country": "Bangladesh",
+        "weight": "0.8m"
+    },
+    {
+        "country": "Brazil",
+        "weight": "0.5m"
+    },
+    {
+        "country": "United States",
+        "weight": "0.3m"
+    }
+    ]
+}

@@ -1,0 +1,318 @@
+/* BIG PIC ON LEFT THAT DOES NOT MOVE */
+.sidenav3{
+    height: 100%;
+    width: 260px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url(../Images/SeaTurtleEntagled.png);
+    background-position-x: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+  }
+  
+  /* ANIMATE THE LINKS */
+  #links a:hover {
+    left: 0; 
+  }
+  
+  /* LINKS ARE SPACED 60PX BETWEEN */
+  #home{
+    top:20px;
+    background-color:#1140cc;
+    box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+  }
+  
+  
+  #adopt{
+    top:80px;
+    background-color:#1261b5;
+    box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+  }
+  
+  
+  #video{
+    top:140px;
+    background-color:#007bff;
+    box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+  }
+  
+  
+  #calculator{
+    top:200px;
+    background-color:#17a2ba;
+    box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+  }
+  
+  
+  #funfacts{
+    top:260px;
+    background-color:tan;
+    box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+  }
+  
+  
+  /*  DESIGN THE LINKS */
+  #links a {
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none; 
+    font-size: 18px; 
+    color: white; 
+    border-radius: 0 5px 5px 0;
+  }
+  
+  h3,h4,h2{
+    font: 10px segoe UI, Arial, sans-serif;
+    color:#043056;
+    
+  }
+  p{
+    font: 15px segoe UI, Arial, sans-serif;
+  }
+  
+  #life-size{
+    color:#043056;
+  }
+  #small-print{
+    color:#043056;
+    line-height: 30px;
+    font-family: segoe UI, Arial, sans-serif;
+    border-bottom:solid 3px #043056;
+    border-top:solid 3px #043056;
+  
+  }
+  
+  /* THIS CLASS BELONGS TO THE BIG PIC FORMATTING PIECE */
+  .main{
+    margin-left: 260px;
+    padding: 0px 10px;
+   
+  }
+  
+  
+ 
+  
+  
+  /* INTRODUCTION TITLE */
+  
+  #INTRODUCTION-BOX{
+    background-color: rgb(211, 232, 241);
+    box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+    background-image: url(../Images/humanturtle.png);
+    background-repeat: no-repeat;
+    background-position-y: 35%;
+    background-position-x: 100%;
+    
+  }
+  
+  /* TITLE INSIDE INTRO BOX */
+  #heading{
+    text-shadow: 5px 7px 5px rgba(14, 68, 90, 0.65);
+    color:#043056;
+    font: 30px segoe UI, Arial, sans-serif;
+  }
+  
+  /* ------------------------------------------------------------------------- */
+  /* GRAPH SECTION */
+  .turtle-card{
+
+    background-color:#043056;
+    box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+    
+  }
+  
+  
+  
+  
+  .body{
+    
+    background-color:tan;
+  }
+  .bodyOfCard:hover{
+    transform: scale(1.1);
+  }
+  #animal-name{
+    font: 30px segoe UI, Arial, sans-serif;
+  }
+  #GraphTitle{
+    color:rgb(220, 232, 238);
+  }
+  #graphSection{
+   
+    padding-bottom: 90px;
+  }
+  
+
+  
+  /* GRAPH INFO */
+  #graphInfo{
+    line-height: 30px;
+    padding: 20px 20px 20px 20px;
+    font: 18px segoe UI, Arial, sans-serif;
+  
+  }
+  
+  #didUKnow{
+    background-color: rgb(211, 232, 241);
+    box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+    
+  }
+  
+  #chart2 {
+    background-image: url(../Images/turtlePlastic.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -120px;
+    background-position-y: -50px;
+    width: 98%;
+    opacity: 85%;
+  
+ 
+    
+  }
+
+  
+  /* ------------------------------------------------------------------------ */
+  
+  /* ALL STYLING FOR THE VOLUNTEER FORM */
+  
+  
+  /* Add some padding and a grey background color to containers */
+  .formTextContainer {
+    padding: 20px;
+  }
+  
+  #formContainer{
+    background-image: url(../Images/cleanBeaches.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position-y: 80%;
+   box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+  }
+  
+  
+  #formTitleBox{
+    background-color:rgba(220, 232, 238, 0.753);
+    
+    padding: 10px;
+    box-shadow: 0 10px 30px rgba(12, 37, 58, 0.89);
+  }
+  
+  /* Style the input elements and the submit button */
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+ 
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #043056;
+    color: tan;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.5;
+    color: black;
+  }
+  
+  
+  /* ----------------------------------------------------------------------------- */
+  
+  /* CARD IMAGES */
+  #cardImage{
+    height: 180px;
+  }
+  
+  
+  /* CARD HEIGHT */
+  .w3-card{
+    height: 320px;
+  }
+  
+  
+  
+  
+  /* ------------------------------------------------------------------------------- */
+  /* THIS IS THE FOOTER */
+  
+  /* FACEBOOK AND TWITTER STICKERS */
+  #stick{
+    width: 90px;
+  }
+  
+  
+  
+  
+  #footer{
+    background-color: #043056;
+    
+  }
+  #footerFont{
+    font: 30px segoe UI, Arial, sans-serif;
+    text-shadow: 5px 7px 5px rgb(73, 73, 73);
+    color:tan;
+  }
+  
+  
+  
+  * {box-sizing: border-box}
+  
+  /* Container needed to position the overlay. Adjust the width as needed */
+  .container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    display: block;
+    width: 850px;
+    height:100%;
+    box-shadow: 0 10px 30px rgba(12, 37, 58, 0.89);
+  
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(1, 45, 146);
+    background: #04305685; /* Black see-through */
+    color: #f1f1f1;
+    width: 96.3%;
+    transition: .5s ease;
+    opacity:0;
+    color: tan;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

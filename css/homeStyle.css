@@ -1,0 +1,312 @@
+body {
+  background-color: #c3def598;
+}
+
+/* BIG PIC ON LEFT THAT DOES NOT MOVE */
+.sidenav {
+  height: 100vh;
+  width: 260px; 
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: url(../Images/kidscleaning.jpg);
+  background-position-x: 62%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* overflow-x: hidden; */
+  box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+}
+
+
+
+
+
+
+
+/*  LINKS ON THE LEFT OF PAGE */
+#links a {
+  position: absolute;
+  left: -82px;
+  transition: 0.3s;
+  padding: 20px;
+  width: 135px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+  /* border-radius: 0 5px 5px 0; */
+}
+
+
+/* ANIMATED LINKS */
+
+#links a:hover {
+  left: 0;
+}
+
+/* LINKS ARE SPACED 60PX BETWEEN */
+
+#home {
+  top: 55px;
+  background-color: #1140cc;
+}
+
+
+#adopt {
+  top: 155px;
+  background-color: #007bff;
+}
+
+#featuredAn {
+  top: 255px;
+  background-color: #007bff;
+}
+
+
+#oceanfacts {
+  top: 355px;
+  background-color: #17a2ba;
+}
+
+
+
+
+#aboutus {
+  top: 455px;
+  background-color: #cfbba5;
+}
+
+
+/*  DESIGN THE LINKS */
+
+#links a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+/* THIS CLASS BELONGS TO THE BIG PIC FORMATTING PIECE */
+.main {
+  margin-left: 260px;
+  padding: 0px 10px;
+}
+
+#jumbo {
+
+  height: 30vh;
+  box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+  background-image: url(../Images/ocean2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 90%;
+}
+
+#logo {
+  height: 22vh;
+}
+
+#logoNomove {
+  height: 30vh;
+  position: absolute;
+  left: 5%;
+  margin-top: -13%;
+}
+
+/* Company Name */
+#pageTitle {
+  font: 15vh amiri;
+  text-shadow: 5px 7px 5px #043056;
+  text-align: center;
+  position: absolute;
+  top: -1vh;
+  left: 5;
+}
+
+/* the letters C and D in Clear Blue */
+.titleLetter {
+  font-size: 25vh;
+}
+
+.titleLetter1 {
+  font-size: 25vh;
+}
+
+/* calculator and graph font */
+#font {
+  font: 30px segoe UI, Arial, sans-serif;
+  text-shadow: 5px 7px 5px rgb(78, 127, 184);
+
+}
+
+#welcome-text {
+  font-weight: 400;
+  font-size: large;
+}
+
+/* THE COLOR OF THE FONT UNDERNEATH THE HEADINGS */
+.small-print {
+  color: #043056;
+}
+
+
+/* mission statement */
+#textbox {
+  background-color: rgb(211, 232, 241);
+  background-image: url(../Images/stickyfish.png);
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-position-y: 100%;
+  background-position-x: 100%;
+  box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  /* spinning world */
+
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+  border: rgba(14, 68, 90, 0.445) solid 2px;
+}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+#textbox1 {
+
+  background-image: url(../Images/stickyturt3.png);
+
+  background-repeat: no-repeat;
+
+  background-position-y: 0%;
+
+  background-position-x: 0%;
+
+  background-size: 25%;
+
+  position: absolute;
+
+  left: 20%;
+
+  top: 165%;
+
+  word-wrap: break-word;
+}
+
+#effectText {
+  position: absolute;
+  left: 20%;
+}
+
+#graphPic {
+  box-shadow: 0 10px 30px rgba(12, 37, 58, 0.89);
+}
+
+#chart {
+
+  background-image: url(../Images/Whos-To-Blame-For-Ocean-Pollution-800x450.jpg);
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+  background-repeat: no-repeat;
+  width: 44%;
+  position: relative;
+  left: 55%;
+  margin-top: 75px;
+
+}
+
+
+#act-now {
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+}
+
+input[type=text] {
+
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+
+/* newsletter style */
+#color {
+  background-color: rgb(211, 232, 241);
+  box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+  background-image: url(../Images/stickyfish.png);
+  background-repeat: no-repeat;
+  background-position-y: 10%;
+  background-position-x: 0%;
+  background-size: 30%;
+}
+
+#button {
+  color: tan;
+  background-color: #043056;
+}
+
+#button:hover {
+  background-image: url(../Images/maxresdefault\ \(3\).jpg);
+  background-position-y: 50%;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  background-size: 1210px;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+#footerFont {
+  font: 30px segoe UI, Arial, sans-serif;
+  text-shadow: 5px 7px 5px rgb(73, 73, 73);
+}
+
+#footer {
+  background-color: #043056;
+  color: tan;
+
+
+}

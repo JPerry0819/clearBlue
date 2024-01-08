@@ -1,0 +1,86 @@
+{
+    "meta": "Leatherbacks in the Eastern Pacific Over Time",
+    "_acc": "Data from Las Baulas National Park, Costa Rica",
+    "data": [
+        {
+            "season": "1988",
+            "population": "1504"
+        },
+        {
+            "season": "1989",
+            "population": "1474"
+        },
+        {
+            "season": "1990",
+            "population": "732"
+        },
+        {
+            "season": "1991",
+            "population": "847"
+        },
+        {
+            "season": "1992",
+            "population": "1000"
+        },
+        {
+            "season": "1993",
+            "population": "195"
+        },
+        {
+            "season": "1994",
+            "population": "569"
+        },
+        {
+            "season": "1995",
+            "population": "421"
+        },
+        {
+            "season": "1996",
+            "population": "140"
+        },
+        {
+            "season": "1997",
+            "population": "234"
+        },
+        {
+            "season": "1998",
+            "population": "126"
+        },
+        {
+            "season": "1999",
+            "population": "246"
+        },
+        {
+            "season": "2000",
+            "population": "417"
+        },
+        {
+            "season": "2001",
+            "population": "79"
+        },
+        {
+            "season": "2002",
+            "population": "68"
+        },
+        {
+            "season": "2003",
+            "population": "188"
+        },
+        {
+            "season": "2004",
+            "population": "54"
+        },
+        {
+            "season": "2005",
+            "population": "124"
+        },
+        {
+            "season": "2006",
+            "population": "76"
+        },
+        {
+            "season": "2007",
+            "population": "90"
+        }
+    ]
+}

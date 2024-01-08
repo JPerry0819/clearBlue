@@ -1,0 +1,390 @@
+
+  
+   
+    
+   
+    /* side picture */
+    .sidenav2 {
+      height: 100%;
+      width: 260px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-image: url(../Images/maxresdefault\ \(22\).jpg);
+      background-position-x:80%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* overflow-x: hidden; */
+      box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+    }
+  
+  
+   
+    
+   
+       
+  
+     
+  #adopt-info{
+    background-color: rgb(211, 232, 241);
+    box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+    background-image: url(../Images/stickyfam.png);
+    background-repeat: no-repeat;
+    background-size: 32%;
+    background-position-y:0%;
+    background-position-x:90%;
+    font: 18px segoe UI, Arial, sans-serif;
+    
+    }
+  
+  
+  /* THE COLOR OF THE FONT UNDERNEATH THE HEADINGS */
+  .small-print{
+    color:#043056;
+  }
+  
+  
+  /* CARD FOR ANIMALS */
+  /* four columns side by side */
+  
+  .image{
+    height:300px;
+  }
+  .column{
+    float: right;
+    width: 24.9%;
+    margin-bottom: 10px;
+    padding: 0 8px;
+   
+   
+  }
+  
+  #animal-names{
+    color:#043056;
+    
+    font: 30px segoe UI, Arial, sans-serif;
+  }
+  #animal-text{
+    text-align: center;
+  }
+  /* 1 row for animal cards */
+  #card-row{
+    padding:15px;
+  
+  }
+  
+  /* type of animal on card */
+  .title {
+    color: rgb(8, 19, 121);
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+    background-color: tan;
+    
+    border: 1px solid #bb9677;
+  }
+  
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* adopt button on cards */
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: tan;
+    font-weight: 5px;
+    background-color:#043056;
+    text-align: center;
+   
+    width: 100%;
+    border-radius: 3px;
+   
+  }
+/* BUTTON MODAL FOR ANIMAL CARDS */
+  #lionModal{
+    background-image: url(../Images/fc749fe90710d395ee3481d4f5391788.jpg);
+   
+    background-position-y: -65%;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    width: 50%;
+    height: 50%;
+    margin-left:500px;
+    margin-top: 200px;
+    
+
+  }
+
+  #turtleModal{
+    background-image: url(../Images/images\ \(13\).jfif);
+    background-position-y: 59%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 50%;
+    height: 50%;
+    margin-left:500px;
+    margin-top: 200px;
+    
+
+  }
+
+  #whaleModal{
+    background-image: url(../Images/download\ \(6\).jfif);
+    background-position-y: -19%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 50%;
+    height: 50%;
+    margin-left:500px;
+    margin-top: 200px;
+    
+
+  }
+
+  #dolphinModal{
+    background-image: url(../Images/maxresdefault\ \(2\).jpg);
+    background-position-y: -235%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 50%;
+    height: 50%;
+    margin-left:500px;
+    margin-top: 200px;
+    
+
+  }
+  .modal-header{
+    background-color: #043056;
+    color: tan;
+    text-align: center;
+    font: 20px segoe UI, Arial, sans-serif;
+  }
+  
+  .close{
+    color:red;
+    cursor: pointer;
+  }
+  
+ 
+
+
+  /* hover image on adopt button */
+  .button:hover {
+    background-image:url(../Images/maxresdefault\ \(3\).jpg);
+    background-position-y: 50%;
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    background-size: 300px; 
+    cursor: pointer;
+    text-align: right;
+  }
+  
+  #Payment-row{
+   margin:8px;
+   
+  }
+  
+  /* payment area */
+  .footer {
+   
+      padding: 25px;
+      /* text-align: center; */
+      background-color: tan;
+      color:#043056;
+      box-shadow: 0 10px 30px rgba(14, 68, 90, 0.89);
+  }
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+      .row {   
+          flex-direction: column;
+      }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+      .navbar a {
+          float: none;
+          width: 100%;
+      }
+  }
+  
+  
+  .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      margin: 0 -16px;
+    }
+    
+    
+    /* cart box */
+    .col-25 {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      background-image: url(../Images/maxresdefault\ \(3\).jpg);
+      background-position:50%;
+      background-size: cover;
+      border-radius:3px;
+    }
+  
+    /* overlay on the cart */
+    #cart{
+      background-color:#036279a6;
+    }
+  
+    .col-50 {
+      -ms-flex: 50%; /* IE10 */
+      flex: 50%;
+      
+      
+    }
+    
+    
+    /* all input boxes */
+   
+    .col-75 {
+      -ms-flex: 75%; /* IE10 */
+      flex: 75%;
+    }
+    
+    .col-25,
+    .col-50,
+    .col-75 {
+      padding: 0 16px;
+    }
+    
+    
+   
+    
+    input[type=text] {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      color:black;
+    }
+    
+    label {
+     margin:0px;
+      display: block;
+      
+  
+    }
+    
+    .icon-container {
+      margin-bottom: 20px;
+      padding: 7px 0;
+      font-size: 24px;
+      
+      
+    }
+    
+    
+    /* checkout btn */
+    .btn {
+      background-color: #043056;
+     color:tan;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      width: 100%;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 17px;
+    }
+    
+    
+    /* checkout btn hover image */
+    .btn:hover {
+        background-image: url(../Images/maxresdefault\ \(3\).jpg);
+      background-position-y: 45%;
+      background-position-x: 100%;
+      background-repeat:repeat-x;
+      background-size: cover;
+      font-weight: bold;
+      color:tan;
+      text-align: right;
+    }
+    
+    span.price {
+      float: right;
+      color: tan;
+    }
+    
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+    @media (max-width: 800px) {
+      .row {
+        flex-direction: column-reverse;
+      }
+      .col-25 {
+        margin-bottom: 20px;
+        color:tan;
+      }
+    }
+  
+    
+  /* billing and payment */
+    h3{
+      color:#043056;
+    }
+    #monthly{
+      color:tan;
+    }
+    #yearly{
+      color:tan;
+    }
+    #donation{
+      color:tan;
+    }
+    .head-img{
+      height:260px;
+      
+    }
+  
+    .icon-container{
+      padding:0px;
+      margin:0px 0px 10px;
+    }
+   
+    /* footer */
+    #footer{
+      background-color: #043056;
+    color:tan;
+   }
+  
+  
+   .footcontainer{
+    background-image: url(../Images/20160603164405.jpg);
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(12, 37, 58, 0.89);
+    margin:10px;
+    height:200px;
+  }
+  
+  
+    

@@ -1,0 +1,111 @@
+/* Start Animation of Images */
+
+#grouped {
+    z-index: 2;
+    max-width: 50%;
+    max-height: 100%;
+    margin: 5px 1px;
+     position: absolute;
+      left: 2%;
+      top: 50%;
+      animation-name: fish;
+      animation-duration: 20s;
+      animation-delay: 4s;
+      animation-iteration-count: infinite;
+   }
+  @keyframes fish{
+      25%{
+          left: 5%;
+          opacity: 100%;
+      }
+      50%{
+          left: 25%;
+          opacity: 75%;
+      }
+      100%{
+          left: 75%;
+          opacity: 0%;
+      }
+  } 
+  #grouped1 {
+    z-index: 2;
+    max-width: 50%;
+    max-height: 100%;
+    margin: 5px 1px;
+     position: absolute;
+      left: 2%;
+      top: 10%;
+      animation-name: fish1;
+      animation-duration: 15s;
+      animation-delay: 1s;
+      animation-iteration-count: infinite;
+   }
+  @keyframes fish1{
+      25%{
+          left: 5%;
+          opacity: 100%;
+      }
+      50%{
+          left: 25%;
+          opacity: 75%;
+      }
+      100%{
+          left:80%;
+          opacity: 0%;
+      }
+  } 
+  
+  
+  
+  #animateCrab{
+    max-width: 50%;
+    max-height: 100%;
+     position: absolute;
+     margin: 5px 1px;
+     position: absolute;
+      left:25%;
+      top: 35%;
+     animation-name: crab;
+     animation-duration: 15s;
+     animation-delay: 2s;
+     animation-iteration-count: infinite;
+  }
+  @keyframes crab{
+    25%{
+        top: 5%;
+        opacity: 0%;
+    }
+    50%{
+        top: 15%
+    }
+    100%{
+       top: 35%;
+        opacity: 100%;
+    }
+  } 
+  
+  
+  
+  #jelly{
+    position: absolute;
+  left: 60%;
+  top: 0%;
+  animation-name: jelly;
+  animation-duration: 20s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  }
+  @keyframes jelly{
+  50%{
+     top: 55%;
+     opacity: 100%;
+  }
+  100%{
+    left: 10%;
+     opacity: 0%;
+  }
+  } 
+ 
+  
+  
+  

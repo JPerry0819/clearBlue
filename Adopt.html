@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- import bootstrap full CSS -->
+  <link href="./css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/w3style.css" />
+  <link rel="stylesheet" href="./css/Adopt.css">
+
+  <link rel="stylesheet" href="./css/homeStyle.css">
+  <link href="./css/MediaQueries.css" rel="stylesheet" type="text/css" />
+  <title>Adopt Me</title>
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <!-- side navigation and fixed picture -->
+
+
+
+    <div id="links" class="sidenav col-2">
+      <a href="index.html" id="home">Clear Blue</a>
+      <a href="Adopt.html" id="adopt">Adopt Me</a>
+      <a href="Featured.html" id="featuredAn">Whats New</a>
+      <a href="OceanFacts.html" id="oceanfacts">Ocean Facts</a>
+      <a href="AboutUs.html" id="aboutus">About Us</a>
+    </div>
+
+
+
+
+    <div class="main">
+
+      <div class="row">
+
+        <div id="jumbo" class="jumbotron col-md-12">
+          <div class="row">
+            <div class="col-sm-3 w3-center">
+              <!-- world -->
+              <img id="logoNomove" class="img-fluid" src="./Images/logoDontMove.png">
+            </div>
+
+            <div>
+              <h1 id="pageTitle" style="color:rgb(220, 232, 238)">
+                <span class="titleLetter">C</span>lear <span class="titleLetter">B</span>lue</h1>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- THIS IS THE MISSION STATEMENT -->
+      <div class="row">
+        <div class="col-md-12" id="adopt-info">
+          <div class="w3-content w3-center w3-padding-64" style="max-width:800px">
+            <h2 class="w3-wide" style="color:#043056;  text-shadow: 5px 7px 5px rgb(78, 127, 184);">ADOPTION</h2>
+            <p class="w3-opacity small-print"><i>We love the Ocean</i></p>
+            <p class="w3-justify"><b>Why adopt?</b> By symbolically adopting you will help fund research, preservation
+              efforts and clean-up events. Below you will find information and photos of marine animals to adopt. Our
+              subscription packages are monthly or annual. We will send you periodical updates along with pictures a
+              t-shirt and how your contributions are helping. You can also provide straight donations of any amount to
+              support this vital cause.<br>
+              <p style="text-align: center;"><b>We value your contribution and support!</b></p>
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <hr>
+      <!-- CARD FOR ANIMALS -->
+      <div id="card-row" class="row">
+        <div class="column">
+          <div class="card container2">
+            <img class="image" src="./Images/clean-up-patch-1.jpg" alt="Sea Lion" style="width:100%">
+            <div class="container" id="animal-text">
+              <h2 id="animal-names">Sea Lion</h2>
+
+              <p>Sea lions are pinnipeds characterized by external ear flaps, long foreflippers, the
+                ability to walk on all fours, short, thick hair, and a big chest and belly. They have an average
+                lifespan of 20–30 years. A male California sea lion weighs on average about 300 kg (660 lb), while the
+                female sea lion weighs 100 kg (220 lb).
+
+              </p>
+
+              <p><button class="button w3-wide w3-hover-shadow w3-border w3-hover-border-blue"
+                  id="lionButton">ADOPT</button></p>
+
+
+            </div>
+          </div>
+        </div>
+
+
+        <!-- BUTTONMODAL -->
+        <div class="modal" id="buttonModal1">
+          <div class="modal-content" id="lionModal">
+            <div class="modal-header">
+              <h1 id="modal-title">
+                THANK YOU FOR ADOPTING A SEA LION AND CONTRIBUTING TO OUR CAUSE  </h1>
+              <span onclick="document.getElementById('buttonModal1').style.display ='none'" class="close">&times;</span>
+
+
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col">
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TURTLE CARD -->
+        <div class="column">
+          <div class="card container2">
+            <img class="image" src="./Images/turtle-in-plastic-300x242_394x.jpg" alt="Green Turtle" style="width:100%">
+            <div class="container" id="animal-text">
+              <h2 id="animal-names"> Green Turtle
+              </h2>
+
+              <p>Green sea turtles in particular are often found in Sargassum mats, in which they find shelter food,and
+                water.
+                The diet of green sea turtles changes with age. Juveniles are omnivorous, but as they mature they become
+                exclusively herbivorous. This diet shift
+                has an effect on the green sea turtle's morphology.
+              </p>
+
+              <p><button class="button w3-wide w3-hover-shadow w3-border w3-hover-border-blue"
+                  id="turtleButton">ADOPT</button> </p>
+            </div>
+          </div>
+        </div>
+        <!-- BUTTONMODAL -->
+        <div class="modal" id="buttonModal2">
+          <div class="modal-content" id="turtleModal">
+            <div class="modal-header">
+              <h1 id="modal-title">
+                THANK YOU FOR ADOPTING A TURTLE AND CONTRIBUTING TO OUR CAUSE </h1>
+              <span onclick="document.getElementById('buttonModal2').style.display ='none'" class="close">&times;</span>
+
+
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col">
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="column">
+          <div class="card container2">
+            <img class="image" src="./Images/download (5).jfif" alt="Blue Whale" style="width:100%">
+            <div class="container" id="animal-text">
+              <h2 id="animal-names">Blue Whale</h2>
+
+              <p>The blue whale, is the largest known animal ever to have lived on sea or land.
+                They can reach more than 110 feet and weigh nearly 200 tons_more than the weight of 50 adult
+                elephants. The blue whale's blood vessels are so broad that a full-grown trout could swim through them,
+                their heart is the size of a small car.</p>
+
+              <p><button class="button w3-wide w3-hover-shadow w3-border w3-hover-border-blue"
+                  id="whaleButton">ADOPT</button></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- BUTTONMODAL -->
+        <div class="modal" id="buttonModal3">
+          <div class="modal-content" id="whaleModal">
+            <div class="modal-header">
+              <h1 id="modal-title">
+                THANK YOU FOR ADOPTING A WHALE AND CONTRIBUTING TO OUR CAUSE  </h1>
+              <span onclick="document.getElementById('buttonModal3').style.display ='none'" class="close">&times;</span>
+
+
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col">
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="column">
+          <div class="card container2">
+            <img class="image" src="./Images/download (3).jfif" alt="Dolphin" style="width:100%">
+            <div class="container" id="animal-text">
+              <h2 id="animal-names">Dolphin</h2>
+
+              <p>Bottlenose dolphins are one of the few species, that have the ability to recognize themselves in a
+                mirror. Dolphins are also among the few animals that
+                have been documented to use tools. In Shark Bay in Western Australia,
+                dolphins put marine sponges over their beaks to protect them from sharp,
+                harmful rocks.</p>
+
+              <p><button class="button w3-wide w3-hover-shadow w3-border w3-hover-border-blue" id="dolphinButton">ADOPT</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+                                 <!-- BUTTONMODAL -->
+                                 <div class="modal" id="buttonModal4">
+                                  <div class="modal-content" id="dolphinModal">
+                                  <div class="modal-header">
+                                    <h1 id="modal-title">
+                                      THANK YOU FOR ADOPTING A DOLPHIN AND CONTRIBUTING TO OUR CAUSE   </h1>
+                                    <span onclick= "document.getElementById('buttonModal4').style.display ='none'" class="close">&times;</span>
+                    
+                    
+                                  </div>
+                                  <div class="modal-body">
+                                    <div class="row">
+                                      <div class="col">
+                                       
+                                        
+                                      </div>
+                                    </div>
+                                  </div>
+                                  </div>
+                                  </div>
+
+
+
+      <!-- end of cards for animals -->
+      <!-- payment box -->
+      <div id="Payment-row" class="footer">
+        <h2></h2>
+
+        <div class="row">
+          <div class="col-75">
+            <div class="container1">
+              <form action="/action_page.php">
+
+                <div class="row">
+                  <div class="col-50">
+                    <h3 class="w3-center w3-wide">BILLING ADDRESS</h3>
+                    <label for="fname"></label>
+                    <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" id="billing" type="text"
+                      id="fname" name="firstname" placeholder="FULL NAME" required>
+                    <label class="w3-input" style="width:100%;" for="email"><i class="fa fa-envelope"></i> </label>
+                    <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" id="billing" type="text"
+                      id="email" name="email" placeholder="EMAIL" required>
+                    <label class="w3-input" style="width:100%;" for="adr">
+                    </label>
+                    <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" id="billing" type="text"
+                      id="adr" name="address" placeholder="ADDRESS" required>
+                    <label class="w3-input" style="width:100%;" for="city"></label>
+                    <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" id="billing" type="text"
+                      id="city" name="city" placeholder="CITY" required>
+
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="state"></label>
+                        <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" id="billing"
+                          type="text" id="state" name="state" placeholder="STATE" required>
+                      </div>
+                      <div class="col-50">
+                        <label for="zip"></label>
+                        <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" id="billing"
+                          type="text" id="zip" name="zip" placeholder="ZIP" required>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="Payment0" class="col-50">
+                    <h3 class="w3-center w3-wide">PAYMENT</h3>
+                    <label for="fname" class="w3-center w3-opacity">Accepted Cards</label>
+                    <div class="icon-container w3-center">
+                      <i class="fa fa-cc-visa"><img src="./Images/icon_visa.gif"><i>
+                          <i class="fa fa-cc-amex" style="color:blue;"><img src="./Images/icon_amex.gif"></i>
+                          <i class="fa fa-cc-mastercard" style="color:red;"><img src="./Images/icon_mastercard.gif"></i>
+                          <i class="fa fa-cc-discover " style="color:orange;"><img src="./Images/icon_discover.gif"></i>
+                    </div>
+                    <label for="cname"></label>
+                    <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" id="billing" type="text"
+                      id="cname" name="cardname" placeholder="NAME ON CARD" required>
+                    <label for="ccnum"></label>
+                    <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" id="billing" type="text"
+                      id="ccnum" name="cardnumber" placeholder="CREDIT CARD NUMBER" required>
+                    <label for="expmonth"></label>
+                    <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" id="billing" type="text"
+                      id="expmonth" name="expmonth" placeholder="EXP MONTH" required>
+
+                    <div class="row">
+                      <div class="col-50">
+                        <label for="expyear"></label>
+                        <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" id="billing"
+                          type="text" id="expyear" name="expyear" placeholder="EXP YEAR" required>
+                      </div>
+                      <div class="col-50">
+                        <label for="cvv"></label>
+                        <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" id="billing"
+                          type="text" id="cvv" name="cvv" placeholder="CVV" required>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <label class="w3-center">
+                  <input class="w3-input w3-border w3-hover-border-blue" style="width:100%;" type="checkbox"
+                    checked="checked" name="sameadr"> Shipping address same as billing
+                </label>
+                <!-- CHECKOUT BUTTON -->
+                <input class="w3-input w3-border w3-hover-border-blue btn w3-wide" style="width:100%;" type="submit"
+                  value="CONTINUE TO CHECKOUT" placeholder="">
+              </form>
+            </div>
+          </div>
+
+          <div id="billing" class="col-25">
+            <div id="cart" class="container1">
+              <h4 style="color:tan">Cart
+                <span class="price" style="color:tan">
+                  <i class="fa fa-shopping-cart"></i>
+                  <b>4</b>
+                </span>
+              </h4>
+              <p><a id="monthly" href="#">Monthly Subscription</a> <span class="price">$8</span></p>
+              <p><a id="yearly" href="#">Yearly Subscription</a> <span class="price">$50</span></p>
+              <p><a id="donation" href="#">Donation 1</a> <span class="price">$ Any amount</span></p>
+
+              <hr>
+              <p style="color:tan">Total <span class="price" style="color:tan"><b>$8</b></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="row">
+        <div class="col-sm-12 w3-center w3-padding-large w3-wide " id="footer">
+          <h3 style="color:tan">CONTACT US ON THESE PLATFORMS </h3>
+          <!-- <hr id="hr"> -->
+          <a href="#"><img src="./Images/fb2.png"></a>
+          <a href="#"><img src="./Images/tw2.png"></a>
+        </div>
+
+      </div>
+      <!-- this is the closing div for main -->
+    </div>
+    <!-- this div closes the fluid container -->
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- import jquery -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <!-- import bootstrap scripts -->
+  <script src="js/bootstrap.bundle.js"></script>
+  <!--script file js  -->
+  <script type="text/javascript" src="script.js"></script>
+  <!-- import D3.js -->
+  <script type="text/javascript" src="js/d3.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="javaScript/adoptionModal.js"></script>
+</body>
+
+</html>
